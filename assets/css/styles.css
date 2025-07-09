@@ -993,9 +993,12 @@ align-items: center;
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   .nav__menu {
-    padding: 1rem 1.5rem;
+    width: 500px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
 
   .home__button {
@@ -1051,9 +1054,9 @@ align-items: center;
 }
 
 /* For medium devices */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
   .nav__menu {
-    width: 388px;
+    width: 768px;
     left: 0;
     right: 0;
     margin: 0 auto;
