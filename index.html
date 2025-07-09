@@ -674,27 +674,30 @@ I love transforming ideas into functional, high-quality digital products — and
                 <div class="contact__content">
                     <h3 class="contact__title contact__title-form">Write Me your Message</h3>
                      <!--=============== FORM START ===============-->
-                    <form name="messend" method="POST" data-netlify="true" class="contact__form">
-    <div class="contact__form-div">
-        <label class="contact__form-tag">Name</label>
-        <input type="text" name="name" placeholder="Enter name" class="contact__form-input" required>
-    </div>
+                  <form name="messend" method="POST" data-netlify="true" class="contact__form">
+  <input type="hidden" name="form-name" value="messend">
 
-    <div class="contact__form-div">
-        <label class="contact__form-tag">Mail</label>
-        <input type="email" name="email" placeholder="Enter email" class="contact__form-input" required>
-    </div>
+  <div class="contact__form-div">
+      <label class="contact__form-tag">Name</label>
+      <input type="text" name="name" placeholder="Enter name" class="contact__form-input" required>
+  </div>
 
-    <div class="contact__form-div contact__form-area">
-        <label class="contact__form-tag">Message</label>
-        <textarea name="message" cols="30" rows="10" placeholder="Write your Message"
-            class="contact__form-input" required></textarea>
-    </div>
+  <div class="contact__form-div">
+      <label class="contact__form-tag">Mail</label>
+      <input type="email" name="email" placeholder="Enter email" class="contact__form-input" required>
+  </div>
 
-    <button type="submit" class="button">
-        Send Message
-    </button>
+  <div class="contact__form-div contact__form-area">
+      <label class="contact__form-tag">Message</label>
+      <textarea name="message" cols="30" rows="10" placeholder="Write your Message"
+          class="contact__form-input" required></textarea>
+  </div>
+
+  <button type="submit" class="button">
+      Send Message
+  </button>
 </form>
+
 
                    <!--=============== FORM END ===============-->
                 </div>
