@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#a789d4">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> Toukir's Portfolio </title>
+</head>
+
+
+<body>
+    <!--=============== HEADER ===============-->
+   <header class="header" id="header">
+  <nav class="nav container">
+    <a href="#" class="nav__logo">
+      <img src="assets/img/LOGO.png" alt="Toukir Logo" class="nav__logo-img">
+      <span class="nav__logo-text">Toukir</span>
+    </a>
+
+    <div class="nav__menu">
+      <ul class="nav__list">
+        <li class="nav__item ">
+          <a href="#home" class="nav__link">
+            <i class='bx bx-home'> Home</i>
+          </a>
+        </li>
+
+        <li class="nav__item ">
+          <a href="#about" class="nav__link">
+            <i class='bx bx-user'> About</i>
+          </a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#skills" class="nav__link">
+            <i class='bx bx-book'> Skills</i>
+          </a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#work" class="nav__link">
+            <i class='bx bx-briefcase-alt-2'> Work</i>
+          </a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#contact" class="nav__link">
+            <i class='bx bx-message-square-dots'> Contact</i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!--=============== theme change button ===============-->
+    <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
+
+  </nav>
+</header>
+
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello, I'm</span>
+                    <h1 class="home__name">Toukir Ahmed</h1> 
+                    <!-- Change the name And additional details -->
+<!-- MAKE NEW CLASS  -->
+<div class="newcontainer">
+<div class="static-text"><span>I AM </span></div>
+
+<div class="dynamic-text">
+<li><span> WEB APP DEVELOPER</span></li>
+<li><span> FULL-STACK ENGINEER</span></li>
+<li><span> REACT DEVELOPER</span></li>
+<li><span> COMPE. PROGRAMMER</span></li>
+
+</div>
+
+</div>
+<!-- NEW CODE HERE  -->
+
+                    <h3 class="home__education">FULL-STACK WEB APP Developer</h3>
+
+                    <div class="home__button">
+                        <a download="" href="assets/pdf/imran-CV.pdf" class="button button--ghost">
+                            Download CV
+                        </a>
+
+                        <a href="#about" class="button">About</a>
+                    </div>
+                </div>
+
+              <div class="home__handle"
+     style="
+       display: inline-block; 
+       transition: transform 0s ease, box-shadow 0.3s ease;
+       border: 8px solid white; 
+       border-radius: 2rem; 
+       box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+     "
+     onmouseover="this.style.transform='rotate(4deg)'; this.style.boxShadow='0 0 25px rgba(255,255,255,0.8)'"
+     onmouseout="this.style.transform='rotate(-3deg)'; this.style.boxShadow='0 0 15px rgba(255,255,255,0.6)'">
+  <img src="assets/img/1.png" alt="" class="home__img">
+</div>
+
+
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/toukir-ahmed-w2001/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/TOUKIR21AHMED" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://dribbble.com/imranpgda" target="_blank" class="home__social-link">
+                        <i class='bx bxl-dribbble'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/toukir.png" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">2 Year</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">16+ Projects</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">Online 24/7</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                       I’m a React web developer with a passion for building dynamic, responsive applications. On the frontend, I work extensively with HTML, CSS, JavaScript, React.js, Next.js, Bootstrap, and Tailwind CSS, crafting interfaces that are both visually appealing and user-friendly.
+
+For the backend, I rely on Node.js, Express.js, MongoDB, and Firebase, creating secure, scalable APIs and databases to power modern web applications. I also handle complex integrations like payment gateways, including SSLCommerz, bKash, and Nagad, making sure transactions are seamless and reliable.
+
+Beyond web development, I dive into competitive programming with C, C++, constantly sharpening my problem-solving skills and exploring efficient algorithms.
+
+I love transforming ideas into functional, high-quality digital products — and I take pride in delivering results that clients truly appreciate.
+                    </p>
+
+                    <a href="#contact" class="button about__button-contact">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">My Abilities</span>
+            <h2 class="section__title">My Skills</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend Development</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">HTML, CSS, JavaScript</h3>
+                                    <span class="skills__level">⭐⭐⭐⭐⭐ (Expert)</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">React.js, Next.js</h3>
+                                    <span class="skills__level">⭐⭐⭐⭐⭐ (Expert)</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">C++</h3>
+                                    <span class="skills__level">⭐⭐⭐⭐⭐ (Expert)</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Bootstrap, Tailwind, CSS</h3>
+                                    <span class="skills__level">⭐⭐⭐⭐☆ (Advanced)</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Responsive Animations</h3>
+                                    <span class="skills__level">⭐⭐⭐⭐☆ (Advanced)</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                    <span class="skills__level">⭐⭐⭐⭐☆ (Advanced)</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title"> Backend & Other Expertise</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Node.js</h3>
+                                    <span class="skills__level">⭐⭐⭐⭐☆ (Advanced)</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Express.js</h3>
+                                    <span class="skills__level">⭐⭐⭐⭐☆ (Advanced)</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">MongoDB</h3>
+                                    <span class="skills__level">⭐⭐⭐⭐☆ (Advanced)</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Firebase</h3>
+                                    <span class="skills__level">⭐⭐⭐⭐☆ (Advanced)</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Payment Gateway Integration</h3>
+                                    <span class="skills__level">⭐⭐⭐⭐☆ (Advanced)</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">C.P.(C,C++)</h3>
+                                    <span class="skills__level">⭐⭐⭐⭐☆ (Advanced)</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section">
+            <span class="section__subtitle">My Services</span>
+            <h2 class="section__title">What I CAN</h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title">Build Modern <br> Web Applications</h3>
+
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Build Modern Web Applications</h3>
+
+                            <p class="services__modal-description">
+                                Craft stunning, high-performance websites that look great on any device and keep users engaged.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Develop responsive, pixel-perfect layouts with React.js, Next.js, HTML, CSS, and JavaScript
+                
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Use Tailwind CSS & Bootstrap for clean, fast, modern designs
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Implement smooth animations and interactive UI/UX elements
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Ensure websites are mobile-friendly and optimized for SEO
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Build dynamic frontends that load quickly and perform flawlessly
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Create Robust Backends <br> Integrations</h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Create Robust Backends & Integrations</h3>
+
+                            <p class="services__modal-description">
+                                Power your applications with secure, scalable servers and smart integrations. 
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Develop RESTful APIs using Node.js and Express.js
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Manage data with MongoDB and Firebase for flexible, real-time updates
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Integrate secure payment gateways like SSLCommerz, bKash, and Nagad
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                     Set up user authentication & authorization systems
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Ensure backend architecture is maintainable and scalable
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title"> Deliver Smart Solutions <br> Competitive Edge</h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Deliver Smart Solutions & Competitive Edge</h3>
+
+                            <p class="services__modal-description">
+                               Provide solutions that solve real problems, add value, and make clients stand out.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                       Solve complex challenges efficiently using C & C++ problem-solving skills
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Customize applications to match client needs and industry standards
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                       Write clean, maintainable code for long-term success
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Communicate clearly and keep clients updated throughout the project
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Deliver on time, ensuring satisfaction and building lasting trust
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle">My Portfolio</span>
+            <h2 class="section__title">Recent Works</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter='all'>All</span>
+                <span class=" work__item" data-filter='.web'>Web Applications</span>
+                <span class=" work__item" data-filter='.movil'>Backend Systems</span>
+                <span class=" work__item" data-filter='.design'>Payment Integrations</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="assets/img/pdc.png" alt="" class="work__img">
+
+                    <h3 class="work__title">PDC-Professional Development Center</h3><br>
+
+                    <a href="https://bdpdc.com/" class="work__button">
+                        Live Preveiw <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+                
+                <div class="work__card mix web">
+                    <img src="assets/img/Aur.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Aurmita-Learn.Heal.Purely</h3><br>
+
+                    <a href="https://aurmita.com/" class="work__button">
+                        Live Preveiw <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+
+                <div class="work__card mix design">
+                    <img src="assets/img/ssl.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Payemnt Gateway Integration</h3><br>
+
+                    <a href="https://ssl-backend-1.onrender.com/initiate-payment" class="work__button">
+                        Live Preveiw <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/git.png" alt="" class="work__img">
+
+                    <h3 class="work__title">GitShelf-Look Your Repo</h3><br>
+
+                    <a href="https://toukir21ahmed.github.io/GitShelf/" class="work__button">
+                        Live Preveiw <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/medi.png" alt="" class="work__img">
+
+                    <h3 class="work__title">MediCampus-Campus.Health.Care</h3><br>
+
+                    <a href="#" class="work__button">
+                        Live Preveiw <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="assets/img/back.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">SSL Backend Server</h3><br>
+
+                    <a href="https://github.com/TOUKIR21AHMED/ssl-backend" class="work__button">
+                        Live Preveiw <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!--=============== TESTIMONIALS ===============-->
+        <section class="testimonial section">
+            <span class="section__subtitle">My clients say</span>
+            <h2 class="section__title">Testimonials</h2>
+
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/p.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">PDC</h3>
+                        <p class="testimonial__description">
+                           "Working with Toukir was an outstanding experience. He developed our website, bdpdc.com, with exceptional professionalism and attention to detail. From a sleek, responsive design to a secure backend and seamless payment integration, everything was handled perfectly. His communication was clear, timelines were met, and he even provided valuable suggestions to improve our user experience. Highly recommend him to anyone looking for a reliable, skilled developer!"
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/U.jpg" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Aumita</h3>
+                        <p class="testimonial__description">
+                            "Toukir bhai did an awesome job for our website Aurmita.com. He was very helpful from start to finish — always listened to our ideas and gave better suggestions too. The site looks beautiful and works super smooth on mobile and computer both. Payment and admin stuff all set up nicely. Really happy with his work. If you want someone friendly, skilled, and who understands your needs, he’s the right guy. Thanks a lot bhai!" 
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/h.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">BDRIVER-Fish</h3>
+                        <p class="testimonial__description">
+"Our website bdriverfish.com was built just how we needed — clean, fast, and easy for customers to use. From the very beginning, the developer took the time to understand our vision and requirements thoroughly. The design is modern and visually appealing, making it simple for visitors to navigate and find exactly what they’re looking for. The site loads quickly, which is essential for keeping customers engaged and reducing bounce rates."
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <sapn class="section__subtitle">Get in touch</sapn>
+            <h3 class="section__title">Contact Me</h3>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-info">Talk to me</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">ahmed18@cse.pstu.ac.bd</span>
+
+                            <a href="mailto:ahmed18@cse.pstu.ac.bd" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">+8801709164091</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=+8801709164091&text=Hey there! Toukir Ahmed  " target="_blank"
+                                class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+    <i class='bx bxl-linkedin contact__card-icon'></i>
+    <h3 class="contact__card-title">LinkedIn</h3>
+    <span class="contact__card-data">Toukir Ahmed</span>
+
+    <a href="https://www.linkedin.com/in/toukir-ahmed-w2001/" target="_blank" class="contact__button">
+        Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+    </a>
+</div>
+
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-form">Write Me your Message</h3>
+                     <!--=============== FORM START ===============-->
+                    <form name="messend" method="POST" data-netlify="true" class="contact__form">
+    <div class="contact__form-div">
+        <label class="contact__form-tag">Name</label>
+        <input type="text" name="name" placeholder="Enter name" class="contact__form-input" required>
+    </div>
+
+    <div class="contact__form-div">
+        <label class="contact__form-tag">Mail</label>
+        <input type="email" name="email" placeholder="Enter email" class="contact__form-input" required>
+    </div>
+
+    <div class="contact__form-div contact__form-area">
+        <label class="contact__form-tag">Message</label>
+        <textarea name="message" cols="30" rows="10" placeholder="Write your Message"
+            class="contact__form-input" required></textarea>
+    </div>
+
+    <button type="submit" class="button">
+        Send Message
+    </button>
+</form>
+
+                   <!--=============== FORM END ===============-->
+                </div>
+
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">TOUKIR</h1>
+
+            <ul class="footer__list">
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#work" class="footer__link">Work</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#contact" class="footer__link">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a href="https://www.facebook.com/toukirahmed.toukirahmed.927" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://github.com/TOUKIR21AHMEf" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-github footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="https://www.linkedin.com/in/toukir-ahmed-w2001/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin footer__social-icon'></i>
+                    </a>
+                </li>
+                
+            </ul>
+
+            <span class="footer__copy">
+                &#169; 2025 Toukir. All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+<div class="loading-screen">
+  <div class="loading-text">
+    <span>T</span>
+    <br><br><br><br>
+    <span>o</span><br><br><br><br><br><br>
+    <span>u</span><br><br><br><br><br><br>
+    <span>k</span><br><br><br><br><br><br>
+    <span>i</span><br><br><br><br><br><br>
+    <span>r</span><br><br><br><br><br><br>
+  </div>
+</div>
+
+
+
+</html>
